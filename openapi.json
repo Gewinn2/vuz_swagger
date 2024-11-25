@@ -7,10 +7,10 @@
     },
     "servers": [
       {
-        "url": "https://mireaiqj.ru"
+        "url": "https://gnomedeployer.ru/api"
       }, 
       {
-        "url": "http://localhost:10558"
+        "url": "http://localhost:8080"
       }
     ],
     "paths": {
