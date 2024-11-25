@@ -33,7 +33,7 @@
                         "in": "body",
                         "required": true,
                         "schema": {
-                            "$ref": "#/definitions/entities.Audience"
+                            "$ref": "#/schemas/entities.Audience"
                         }
                     }
                 ],
@@ -41,25 +41,25 @@
                     "200": {
                         "description": "OK",
                         "schema": {
-                            "$ref": "#/definitions/entities.UpdateDeleteAudienceResponse"
+                            "$ref": "#/schemas/entities.UpdateDeleteAudienceResponse"
                         }
                     },
                     "400": {
                         "description": "Bad Request",
                         "schema": {
-                            "$ref": "#/definitions/entities.ErrorResponse"
+                            "$ref": "#/schemas/entities.ErrorResponse"
                         }
                     },
                     "401": {
                         "description": "Unauthorized",
                         "schema": {
-                            "$ref": "#/definitions/entities.ErrorResponse"
+                            "$ref": "#/schemas/entities.ErrorResponse"
                         }
                     },
                     "500": {
                         "description": "Internal Server Error",
                         "schema": {
-                            "$ref": "#/definitions/entities.ErrorResponse"
+                            "$ref": "#/schemas/entities.ErrorResponse"
                         }
                     }
                 }
@@ -2566,7 +2566,7 @@
             }
         }
     },
-    "definitions": {
+    "schemas": {
         "entities.AcademicDiscipline": {
             "type": "object",
             "properties": {
