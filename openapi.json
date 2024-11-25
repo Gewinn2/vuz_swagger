@@ -1,4 +1,8 @@
-basePath: /
+servers:
+  - url: http://localhost:8080
+    description: Local server for development
+  - url: http://gnomedeployer.ru/api
+    description: Production server
 definitions:
   entities.AcademicDiscipline:
     properties:
